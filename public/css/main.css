@@ -451,7 +451,7 @@ p{
     color: var(--main-color);
 }
 @media (max-width:767px) {
-    .feedback{
+    .project {
         margin-top: 40px;
     }
 }
