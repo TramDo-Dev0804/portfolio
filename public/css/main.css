@@ -7,8 +7,8 @@ body {
 }
 
 :root {
-    --main-color: #ffe100;
-    --MAIN-COLOR: #ffb800;
+    --main-color: #ffae00;
+    --MAIN-COLOR: #ffae00;
     --cretech-primary: #ffb800;
 }
 
@@ -85,7 +85,7 @@ p{
 @media (min-width:992px) {
     .header .slider-top .content {
         position: absolute;
-        bottom: 30%;
+        bottom: 25%;
         left: 15%;
         width: 80%;
         right: 5%;
@@ -120,6 +120,13 @@ p{
     letter-spacing: 0.5px;
     /* text-align: justify; */
 }
+.header .slider-top .content h3{
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    color: var(--main-color);
+    margin-top: 30px;
+}
 @media (max-width:767px) {
     .header .slider-top .content .name{
         font-size: 36px;
@@ -143,8 +150,7 @@ p{
     list-style: none;
 }
 .social li{
-    display: inline-block;
-    padding-right: 12px;
+    padding-bottom: 10px;
 }
 .social li a img{
     max-width: 30px;
@@ -154,7 +160,12 @@ p{
     position: relative;
     padding: 0px;
 }
-
+.social li a{
+    transition: all linear 0.3s;
+}
+.social li a:hover{
+    color: var(--main-color);
+}
 .shape-animation {
     position: absolute;
     bottom: 20%;
